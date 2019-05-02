@@ -65,7 +65,7 @@ BLYNK_CONNECTED(){
   Blynk.syncAll();
 }  
 
-/*Atomatic PumpWater*/
+/*Automatic Pump*/
 void loop()
 { 
   Blynk.run();
@@ -79,7 +79,7 @@ void loop()
   Serial.println(" %");
   delay(tempo);
   
-  /* Control Pumpwater*/
+  /* Control Water Pump*/
   if (sensorValue > 0 && sensorValue < limitSoilmoisture){
     Blynk.notify("Water your plants");
     digitalWrite(waterPump,HIGH);
