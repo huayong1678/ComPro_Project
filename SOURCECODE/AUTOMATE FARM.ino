@@ -10,7 +10,7 @@
 #define waterPump D5 /*Pumpwater*/
 #define sensorPin A0 /*soil moisture sensor*/
 
-int tempo=100;/*watering time of 2 seconds*/
+int tempo=100;/*watering time*/
 
 /* Standard Soil moisture */
 int limitSoilmoisture = 300;
@@ -37,7 +37,7 @@ void setup()
   pinMode(waterPump, OUTPUT);
 }
 
-/*DHT*/
+/*DHT11*/
 void sendSensor()
 {
   float h = dht.readHumidity();
@@ -46,10 +46,10 @@ void sendSensor()
   if (isnan(h) || isnan(t)) {
     Blynk.notify("Failed DHT sensor!");
   }
-  else if(t>= 15 || t <= 40){
+  else if(t>= 15 && t <= 40){
     Blynk.notify("Suitable Temperature Makes Plants grow!");
   }
-  else if(t >= 20 || t <= 30){
+  else if(t >= 20 && t <= 30){
     Blynk.notify("Transport Of Food In Plants Is Good!");
   }
  /* send Humidity Value and Temperature Value to V5 V6*/
