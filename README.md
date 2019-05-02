@@ -31,9 +31,9 @@
 
 
 ## Assistant Teacher
-|ผศ. ดร. กิติ์สุชาต พสุภา|
-|:-:|
-|![](img/xxx.jpg)|
+|Assoc.Prof.Kitsuchart Pasupa|Assoc.Prof.Panwit Tuwanut|
+|:-:|:-:|
+|![](img/xxx.jpg)|![](img/yyy.jpg)|
 <br>
 ==================================================================================<br><br>
 รายงาน และ ซอร์สโค้ดนี้ เป็นส่วนหนึ่งของวิชา การสร้างโปรแกรมคอมพิวเตอร์ Computer Programming (06016206)
