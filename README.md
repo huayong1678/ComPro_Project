@@ -26,5 +26,5 @@
 |:-:|--|------|---------------|---------|
 |![https://www.facebook.com/pluemmooiuan](img/115.jpg)|Porames|Jariyayanyong|[@huayong1678](https://github.com/huayong1678)|61070115|
 |![www.facebook.com/jumpnajaa.f](img/096.jpg)|Napajorn|Yongstar|[@Napajorninwza](https://github.com/Napajorninwza)|61070096|
-|![https://www.facebook.com/yui.ammrar](img/267.jpg)|Noppanut|Ploywong|[@XXX](https://github.com/XXX)|61070267|
+|![https://www.facebook.com/yui.ammrar](img/267.jpg)|Ammara|Donglong|[@61070267](https://github.com/61070267)|61070267|
 |![https://www.facebook.com/7eay.mask](img/101.jpg)|Nawabhorn|Charattrakool|[@plynawabhorn](https://github.com/plynawabhorn)|61070101|
