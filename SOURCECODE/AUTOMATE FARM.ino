@@ -85,7 +85,7 @@ void loop()
     digitalWrite(waterPump,HIGH);
     delay(tempo); 
   }
-  else if (sensorValue <= limitSoilmoisture && sensorValue < limitMaxSoilmoisture){
+  else if (sensorValue >= limitSoilmoisture && sensorValue < limitMaxSoilmoisture){
     digitalWrite(waterPump,LOW);
     Blynk.notify("plants happy!");
     delay(tempo);  
